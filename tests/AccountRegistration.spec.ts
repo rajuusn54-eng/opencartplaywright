@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from '../pages/HomePage';
-import { RegistrationPage } from '../pages/RegistrationPage';
+import { HomePage } from '../pages/homePage';
+import { RegistrationPage } from '../pages/registrationPage';
 import { RandomDataUtil } from '../utils/randomDataGenerator';
 import { TestConfig } from '../test.config';
 

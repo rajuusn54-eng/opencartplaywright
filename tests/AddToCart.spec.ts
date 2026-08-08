@@ -16,7 +16,7 @@
 
 import { test, expect } from '@playwright/test';
 import { TestConfig } from '../test.config';
-import { HomePage } from '../pages/HomePage';
+import { HomePage } from '../pages/homePage';
 import { SearchResultsPage } from '../pages/searchResultsPage';
 import { ProductPage } from '../pages/productPage';
 

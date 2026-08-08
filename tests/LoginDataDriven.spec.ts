@@ -3,7 +3,7 @@ import { LoginPage } from '../pages/loginPage';
 import { MyAccountPage } from '../pages/myAccountPage';
 import { DataProvider } from '../utils/dataProviders';
 import { TestConfig } from '../test.config';
-import { HomePage } from '../pages/HomePage';
+import { HomePage } from '../pages/homePage';
 
 //Load JSON test data loginData.json
 
