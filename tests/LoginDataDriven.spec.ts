@@ -23,6 +23,7 @@ for(const data of jsonTestData)
 
         const loginPage = new LoginPage(page);
         await loginPage.login(data.email, data.password);
+       
 
         if(data.expected.toLowerCase()==='success')
         {
