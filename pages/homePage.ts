@@ -34,11 +34,20 @@ return false;
 //click my account
 async clickOnMyAccount(){
 
-    try{
+      try {
+        console.log('Before My Account click');
+        console.log('URL:', await this.page.url());
+        console.log('Title:', await this.page.title());
+        console.log('My Account count:', await this.lnkMyAccount.count());
+        console.log('Page closed:', this.page.isClosed());
+
         await this.lnkMyAccount.click();
-    } catch(error){
-    console.log(`Error while clicking on My Account link: ${error}`);
-    throw error;    
+
+        console.log('After My Account click');
+
+    } catch (error) {
+        console.log(`Error while clicking on My Account link: ${error}`);
+        throw error;
     }
 }
 

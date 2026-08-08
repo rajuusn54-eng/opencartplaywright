@@ -1,0 +1,6 @@
+Before My Account click
+URL: https://tutorialsninja.com/demo/
+Title: Your Store
+My Account count: 1
+Page closed: false
+After My Account click
