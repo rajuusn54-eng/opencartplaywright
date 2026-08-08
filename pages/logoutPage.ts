@@ -1,5 +1,5 @@
 import { Page, Locator } from '@playwright/test';
-import { HomePage } from './HomePage';
+import { HomePage } from './homePage';
 
 export class LogoutPage {
 
